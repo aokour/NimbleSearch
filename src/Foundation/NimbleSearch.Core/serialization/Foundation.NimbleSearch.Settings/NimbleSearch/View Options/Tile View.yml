@@ -1,0 +1,24 @@
+﻿---
+ID: "738facd7-ce2b-4f2d-ad0e-ffe006ae29fa"
+Parent: "129f4f10-80a2-4c28-8b17-27114aacf445"
+Template: "7c9bf0c8-7eda-46d4-8bd6-8fe772cfbfd2"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/View Options/Tile View
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1deea0e5-d762-4cee-b564-efffd2cea846"
+      Hint: PageSizeOptions
+      Value: "{7781A0DB-1597-48B9-8E48-46A63D0ED62B}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T020619Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6fb69df8-1215-4cec-be04-3ba3cd326557"
+      Hint: ClassName
+      Value: "results--tile-view"

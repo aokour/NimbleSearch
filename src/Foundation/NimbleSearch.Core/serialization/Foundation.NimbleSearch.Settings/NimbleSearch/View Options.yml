@@ -1,0 +1,19 @@
+﻿---
+ID: "129f4f10-80a2-4c28-8b17-27114aacf445"
+Parent: "0e45146f-47a8-4eec-8a55-596a94ed336d"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/View Options
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{7C9BF0C8-7EDA-46D4-8BD6-8FE772CFBFD2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T015942Z

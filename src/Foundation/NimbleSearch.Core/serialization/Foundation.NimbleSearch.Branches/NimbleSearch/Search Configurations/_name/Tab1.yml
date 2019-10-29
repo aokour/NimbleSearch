@@ -1,0 +1,17 @@
+﻿---
+ID: "25915e2c-c60d-460b-a83d-baa42d71bcdc"
+Parent: "9de6b30c-643c-4e80-8d15-4b3cbb8d14dd"
+Template: "b94288ae-7ff3-452c-b842-7dea212f210a"
+Path: /sitecore/templates/Branches/Foundation/NimbleSearch/Search Configurations/$name/Tab1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T214708Z
+    - ID: "a4b17a84-53cc-4904-a49e-f8f90d2cff78"
+      Hint: DefaultSort
+      Value: 

@@ -1,0 +1,19 @@
+﻿---
+ID: "9f15e2d3-ee8a-4479-9a83-90b9844d6f92"
+Parent: "0e45146f-47a8-4eec-8a55-596a94ed336d"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Paging Options
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{5F23E9E6-A1D8-4698-8DDA-B729A85B74CB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T015211Z

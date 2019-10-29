@@ -1,0 +1,18 @@
+﻿---
+ID: "d77fcc41-d318-49be-8133-5fb036ee01e9"
+Parent: "25915e2c-c60d-460b-a83d-baa42d71bcdc"
+Template: "7d7dfdde-ba73-4e30-af76-9f48a33161be"
+Path: /sitecore/templates/Branches/Foundation/NimbleSearch/Search Configurations/$name/Tab1/Boosting
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T025409Z

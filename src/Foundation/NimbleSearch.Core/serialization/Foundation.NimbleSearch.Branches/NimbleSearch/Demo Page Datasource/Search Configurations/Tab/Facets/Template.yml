@@ -1,0 +1,30 @@
+﻿---
+ID: "86ba4032-f2a6-45b1-9e33-987d948af63e"
+Parent: "bee54ae6-afcd-4bb5-99fc-93f1e05e5048"
+Template: "667a8e10-76da-4e49-96e9-52cd2393317d"
+Path: /sitecore/templates/Branches/Foundation/NimbleSearch/Demo Page Datasource/Search Configurations/Tab/Facets/Template
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0242458b-88ba-4357-b1f2-6650cd67b776"
+      Hint: SortBy
+      Value: Occurrences
+    - ID: "0e835a87-abb2-4332-8dbf-1702f56f96e8"
+      Hint: MinimumValues
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191029T015207Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b8e94e69-4040-4d0f-bf03-5625dfda3863"
+      Hint: FieldName
+      Value: _templatename
+    - ID: "bc056b80-2cee-4ebf-9e37-358ea4b68a63"
+      Hint: LimitValues
+      Value: 5

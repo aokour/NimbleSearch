@@ -1,0 +1,29 @@
+﻿---
+ID: "34dfa30e-9b6a-4a93-9967-d86c6a63f4fa"
+Parent: "b3a62d39-51a6-4ac2-b060-0d77c3267177"
+Template: "b3a62d39-51a6-4ac2-b060-0d77c3267177"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Facets Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {667A8E10-76DA-4E49-96E9-52CD2393317D}
+    {E87E7D2E-1E30-4535-911F-609DDBE4AAB2}
+    {D9FE36F3-033D-462E-8EF6-EF5EFAEB07A0}
+    {99ABD7EA-1912-409D-A403-97DE1A670CF5}
+    {4CB964AB-FC73-421A-AD9E-DEA27ABEA5A4}
+    {F26CE12C-7D40-4C7A-A55A-33E073AB377D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T211445Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

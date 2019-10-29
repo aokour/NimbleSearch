@@ -1,0 +1,21 @@
+﻿---
+ID: "b2a2a6e8-5ed1-4c57-9d4f-c02222c8f14f"
+Parent: "7d7dfdde-ba73-4e30-af76-9f48a33161be"
+Template: "7d7dfdde-ba73-4e30-af76-9f48a33161be"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Boost Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {DDE3ABBE-94A9-4F3F-B9D2-37EDC79EEDA2}
+    {2A5E9B17-1C36-4DFD-961F-79DA343364D4}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T024520Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "4d8850f3-343a-47cd-a27e-5d054e5453fa"
+Parent: "2427e5ea-f3c3-4a0d-acca-f5ecd0644e33"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/NimbleSearch/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T011655Z

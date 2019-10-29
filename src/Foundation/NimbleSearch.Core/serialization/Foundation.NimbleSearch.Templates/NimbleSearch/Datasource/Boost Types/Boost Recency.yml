@@ -1,0 +1,22 @@
+﻿---
+ID: "2a5e9b17-1c36-4dfd-961f-79da343364d4"
+Parent: "983db93b-cfff-4e86-8e4e-dc1317f220d4"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Boost Types/Boost Recency
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/calendar_up.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{DDE3ABBE-94A9-4F3F-B9D2-37EDC79EEDA2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T022337Z

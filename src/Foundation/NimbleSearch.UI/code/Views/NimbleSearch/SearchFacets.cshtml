@@ -1,0 +1,35 @@
+﻿<div class="product-sidebar" id="facets-full" style="display:none">
+    <h4 class="sidebar-title">Filter Search</h4>
+    <div class="module-filter" id="nimble-facets-placeholder"></div>
+</div>
+
+<script id="nimble-facets-template" type="text/x-handlebars-template">
+    <aside>
+        <div class="sidebar sidebar-static">
+            
+            <div class="sidebar-collapse collapse" id="facets-sidebar">
+                {{#each Facets as |facet|}}
+                <div class="facets-container">
+                    <h5>{{facet.Name}}</h5>
+                   
+                    <div class="facet-list">
+                        <ul class="facet nav nav-pills nav-stacked">
+                            {{#each facet.Values as |value|}}
+                            <li>
+                                <label><input type="checkbox" value="{{value.Name}}" data-facet-name="{{facet.ID}}" class="filter-checkbox"><span>{{value.Name}} ({{value.Count}})</span></label>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </aside>
+</script>
+    <script id="facets-button-template" type="text/x-handlebars-template">
+        {{#each Facets as |facets|}}
+        <input type="button" value="{{facets.name}}" class="btn btn-quote facet-button" data-facet-name="{{facets.category}}" />
+        {{/each}}
+    </script>
+

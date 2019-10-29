@@ -1,0 +1,18 @@
+﻿---
+ID: "776a3810-64d5-400a-92e3-b9bfb1269b0b"
+Parent: "7781a0db-1597-48b9-8e48-46a63d0ed62b"
+Template: "710e068a-b42b-458f-b9a8-087cd747fa30"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Paging Options/Tile Paging Sizes/99
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T015712Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

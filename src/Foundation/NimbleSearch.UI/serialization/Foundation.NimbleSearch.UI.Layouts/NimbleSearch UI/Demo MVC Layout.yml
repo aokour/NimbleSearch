@@ -1,0 +1,18 @@
+﻿---
+ID: "0969f78e-77db-414a-8ee2-7741104640e9"
+Parent: "f16a8a77-5d43-48ac-8102-815a302c30b9"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Foundation/NimbleSearch UI/Demo MVC Layout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/NimbleSearch/OOTB/DemoMvcLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191029T014208Z

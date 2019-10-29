@@ -1,0 +1,22 @@
+﻿---
+ID: "0e6be94d-2002-4694-8edb-2d23ff10b168"
+Parent: "d94c648f-aacc-4a24-896d-40af682ddb58"
+Template: "21e64903-cb76-4d21-9ab5-d892c682a733"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Sort Options/Common
+DB: master
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{C3E3F0E3-0162-4F1F-AB3E-40348E371A3F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T013727Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

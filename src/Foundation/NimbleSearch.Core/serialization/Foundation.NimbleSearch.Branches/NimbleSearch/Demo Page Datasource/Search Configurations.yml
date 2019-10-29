@@ -1,0 +1,18 @@
+﻿---
+ID: "25ded313-5e5a-4fff-a24c-f49036befc10"
+Parent: "aecb62de-872f-4d80-96fb-f67c715d5b46"
+Template: "76b4d855-f539-4489-aab4-c97432d2ac0e"
+Path: /sitecore/templates/Branches/Foundation/NimbleSearch/Demo Page Datasource/Search Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191029T015135Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

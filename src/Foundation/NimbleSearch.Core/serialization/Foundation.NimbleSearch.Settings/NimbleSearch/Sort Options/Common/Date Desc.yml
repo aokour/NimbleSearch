@@ -1,0 +1,25 @@
+﻿---
+ID: "a72eabc2-af23-4614-82a9-02c671358683"
+Parent: "0e6be94d-2002-4694-8edb-2d23ff10b168"
+Template: "45b55ae2-1550-4b27-a888-b63a993aa75b"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Sort Options/Common/Date Desc
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cec3e59-e324-4e97-b58c-486055e9e52a"
+      Hint: IsDescending
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T013928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cb242792-b3ed-4eac-a953-cc5f78086882"
+      Hint: FieldName
+      Value: nimbledatesort

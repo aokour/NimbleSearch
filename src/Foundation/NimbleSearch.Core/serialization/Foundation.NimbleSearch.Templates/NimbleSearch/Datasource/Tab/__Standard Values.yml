@@ -1,0 +1,62 @@
+﻿---
+ID: "ca3f2488-deae-4c97-9425-323e8ba3d264"
+Parent: "b94288ae-7ff3-452c-b842-7dea212f210a"
+Template: "b94288ae-7ff3-452c-b842-7dea212f210a"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Tab/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B3A62D39-51A6-4AC2-B060-0D77C3267177}
+    {7D7DFDDE-BA73-4E30-AF76-9F48A33161BE}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 775
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02585a63-495d-41b1-9596-9788241c8e95"
+      Hint: ApplyLatestVersion
+      Type: Checkbox
+      Value: 1
+    - ID: "17141452-c10b-41be-8ac9-23c3cfbaf60b"
+      Hint: EmptyResultsMessage
+      Value: |
+        <li class="no-results">
+        <p style="text-align: center;">&nbsp;</p>
+        <p style="text-align: center;">No results for {{keyword}} <br />
+        <strong>Search tips</strong><br />
+        Check the spelling of your keywords or Try modifying your search term</p>
+        </li>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171010T183433Z
+    - ID: "4ae22388-e536-40ce-8d51-ec00677ac292"
+      Hint: PageViews
+      Type: Multilist
+      Value: "{C90085A0-EFCB-42FA-82CC-C65E8820FC81}"
+    - ID: "5d1ee81a-5daf-490d-b6cf-f0d038e82526"
+      Hint: IndexName
+      Value: sitecore_web_index
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a4b17a84-53cc-4904-a49e-f8f90d2cff78"
+      Hint: DefaultSort
+      Value: "{981AC447-CBF0-4F55-8E1C-718665A1BEC5}"
+    - ID: "cba82496-7873-4b42-8075-d0120ca25a27"
+      Hint: ApplyCurrentLanguage
+      Type: Checkbox
+      Value: 1
+    - ID: "ef32d52a-e28d-4ff0-b9a0-7c300a4a6b88"
+      Hint: SortingOptions
+      Type: Treelist
+      Value: "{981AC447-CBF0-4F55-8E1C-718665A1BEC5}"
+    - ID: "fbc9f6bd-baf1-4112-b41a-998ad3c4ec5a"
+      Hint: DefaultPageView
+      Value: "{C90085A0-EFCB-42FA-82CC-C65E8820FC81}"

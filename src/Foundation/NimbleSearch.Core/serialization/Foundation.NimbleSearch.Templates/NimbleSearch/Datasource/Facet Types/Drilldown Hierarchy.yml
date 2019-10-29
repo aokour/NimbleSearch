@@ -1,0 +1,27 @@
+﻿---
+ID: "f26ce12c-7d40-4c7a-a55a-33e073ab377d"
+Parent: "d990da46-c8d0-44c3-9e6e-11a3a459e7a9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Facet Types/Drilldown Hierarchy
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/branch.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {F1F4C1C3-EC95-4007-BCC4-DCFB52A50FBF}
+    {D36F9595-D824-43E4-9034-5471FF9EF77A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T021707Z

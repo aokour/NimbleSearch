@@ -1,0 +1,24 @@
+﻿---
+ID: "e8ccf1c5-16b7-4a9a-bdfb-57790d683f1e"
+Parent: "f66945aa-2e04-44e0-9460-b78a18fa5f53"
+Template: "f66945aa-2e04-44e0-9460-b78a18fa5f53"
+Path: /sitecore/templates/Foundation/NimbleSearch UI/Parameters/ParametersTemplate_SearchBoxConfigurations/__Standard Values
+DB: master
+SharedFields:
+- ID: "485e33d4-79f1-428f-8258-2cb29bb7cc6b"
+  Hint: Additional Parameters
+  Value: 
+- ID: "e42027f4-766d-45a7-8cf4-29e5c94326f7"
+  Hint: Placeholder
+  Value: searchbox
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T195629Z
+    - ID: "3349a1bc-4671-4e3d-8f81-43ec560444a3"
+      Hint: Results
+      Value: 10

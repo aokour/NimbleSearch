@@ -1,0 +1,20 @@
+﻿<ul class="list-unstyled list-divided" id="nimble-data-placeholder"></ul>
+
+<script id="nimble-data-template" type="text/x-handlebars-template">
+    <ul class="list-unstyled list-divided">
+        {{#each Items as |item|}}
+       
+       {{#with item.Custom as |property|}}
+        <li>
+            <div>
+                <span class="label label-info">{{item.Type}}</span>
+            </div>
+            <h2>
+                <a href="{{item.Url}}">{{item.Title}}</a>
+            </h2>
+            {{{item.Summary}}}
+        </li>
+        {{/with}}
+        {{/each}}
+    </ul>
+</script>

@@ -1,0 +1,14 @@
+﻿---
+ID: "4569cec1-eea2-480f-abd9-3158251f3051"
+Parent: "2a5e9b17-1c36-4dfd-961f-79da343364d4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Boost Types/Boost Recency/Recency
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T022917Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "78828f09-cf64-4ab4-a81a-d8aa81d5b306"
+Parent: "928a480f-8d07-4cc1-8b73-b46e20aabacc"
+Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
+Path: /sitecore/layout/Placeholder Settings/Foundation/NimbleSearch UI
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T154903Z

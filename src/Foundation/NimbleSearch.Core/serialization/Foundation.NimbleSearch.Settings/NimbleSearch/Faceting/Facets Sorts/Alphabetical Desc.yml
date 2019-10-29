@@ -1,0 +1,20 @@
+﻿---
+ID: "21fec55c-1ee0-4c0b-833c-99e91521cec0"
+Parent: "2e7a8270-e532-4327-88f2-bcf2965b7ad7"
+Template: "68bb9e56-e94c-46ee-932b-2c88f8e4798f"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Faceting/Facets Sorts/Alphabetical Desc
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T213141Z
+    - ID: "c434168b-d51f-4128-b173-7993d967d3b1"
+      Hint: Value
+      Value: Alphabetical Desc
+    - ID: "f6e3bc1d-9ff6-439f-b192-2f8e709c5dec"
+      Hint: Name
+      Value: Alphabetical Desc

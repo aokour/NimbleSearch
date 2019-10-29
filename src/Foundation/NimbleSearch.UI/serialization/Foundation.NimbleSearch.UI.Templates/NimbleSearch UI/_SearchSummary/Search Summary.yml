@@ -1,0 +1,18 @@
+﻿---
+ID: "4432b70f-fc29-4429-9911-cc34f1c8e6ed"
+Parent: "46a46983-9eb5-487b-8d90-6ae831bbd404"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/NimbleSearch UI/_SearchSummary/Search Summary
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T151726Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

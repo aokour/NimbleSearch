@@ -1,0 +1,9 @@
+﻿<script id="nimble-sort-template" type="text/x-handlebars-template">
+    <select id="sort" class="nimbleSearchSort">
+        {{#each SortOptions as |sortOption|}}
+        <option value="{{sortOption.Value}}" data-value="{{sortOption.Value}}" data-direction="{{sortDirection sortOption.IsDescending}}">{{sortOption.Label}}</option>
+        {{/each}}
+    </select>
+</script>
+
+<div class="results-sort" id="nimble-sort-placeholder"></div>

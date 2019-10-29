@@ -1,0 +1,14 @@
+﻿---
+ID: "2e7a8270-e532-4327-88f2-bcf2965b7ad7"
+Parent: "83f2c9b4-3b99-4d37-8cd1-74e31e93d430"
+Template: "97693bb5-5ecd-490a-bedf-d839dcee65e4"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Faceting/Facets Sorts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T213117Z

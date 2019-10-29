@@ -1,0 +1,21 @@
+﻿---
+ID: "72697c56-9254-4eb2-b599-d4d6444d34f1"
+Parent: "cd4c1c27-fb42-43e7-a2e6-e2c8a7c9c14e"
+Template: "e538cdef-9710-4712-a821-315e44862fe2"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Date Recency Options/Boost within Month
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T023559Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "87e4b386-49af-4c7b-9496-b9c9e442be8f"
+      Hint: boostDays
+      Value: 30

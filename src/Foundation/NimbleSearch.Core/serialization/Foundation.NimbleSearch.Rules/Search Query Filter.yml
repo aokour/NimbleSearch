@@ -1,0 +1,14 @@
+﻿---
+ID: "3000e7b5-51e1-4366-895b-035a8a2fa556"
+Parent: "1057c235-c5c0-4eb7-8f77-ea51eb9e20ee"
+Template: "dda66314-03f3-4c89-84a9-39dffb235b06"
+Path: /sitecore/system/Settings/Rules/Search Query Filter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T191653Z

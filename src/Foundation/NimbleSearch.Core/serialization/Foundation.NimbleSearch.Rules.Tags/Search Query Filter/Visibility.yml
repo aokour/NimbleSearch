@@ -1,0 +1,14 @@
+﻿---
+ID: "0c5e8131-3d34-48b1-8eb6-f27fa66cd455"
+Parent: "6adcd47e-c66b-4d59-995e-7325dfaa5a2a"
+Template: "aa91a868-02f2-41d3-8b78-1cad91b4dcae"
+Path: /sitecore/system/Settings/Rules/Definitions/Tags/Search Query Filter/Visibility
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T190524Z

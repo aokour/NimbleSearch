@@ -1,0 +1,14 @@
+﻿---
+ID: "0a97eb28-03f4-4bac-a3dd-32a9bbcaa426"
+Parent: "dde3abbe-94a9-4f3f-b9d2-37edc79eeda2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Boost Types/Boost Field/Boost
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T022515Z

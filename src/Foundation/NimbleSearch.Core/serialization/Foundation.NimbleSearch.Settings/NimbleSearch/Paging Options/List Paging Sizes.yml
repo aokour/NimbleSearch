@@ -1,0 +1,14 @@
+﻿---
+ID: "487c8f84-03d8-4b48-9089-40037a6f65fc"
+Parent: "9f15e2d3-ee8a-4479-9a83-90b9844d6f92"
+Template: "5f23e9e6-a1d8-4698-8dda-b729a85b74cb"
+Path: /sitecore/system/Settings/Foundation/NimbleSearch/Paging Options/List Paging Sizes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T015331Z

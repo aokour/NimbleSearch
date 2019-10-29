@@ -1,0 +1,38 @@
+﻿---
+ID: "4c9d823c-b02e-432f-b494-476f97dbf551"
+Parent: "26619265-9d11-472b-bdbf-077aeb3760e4"
+Template: "26619265-9d11-472b-bdbf-077aeb3760e4"
+Path: /sitecore/templates/Foundation/NimbleSearch UI/DemoPage/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{0969F78E-77DB-414A-8EE2-7741104640E9}">
+        <r
+          ds=""
+          id="{64B1C7CA-E7F5-4967-A414-923E312B31C4}"
+          par=""
+          ph="main"
+          uid="{8C47CB29-A1C6-4307-BB74-61536613C2E9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191029T014344Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "714e34e3-cd8a-443c-a8e5-3928382a5a67"
+      Hint: Title
+      Value: Demo Only

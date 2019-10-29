@@ -1,0 +1,14 @@
+﻿---
+ID: "ff58f4b9-19fc-4d37-843d-fc97f7df40db"
+Parent: "ed510942-4738-4a6b-a89c-aa2a8cf086a2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/NimbleSearch/Datasource/Facet Types/_limit values/Facet Properties
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T030119Z

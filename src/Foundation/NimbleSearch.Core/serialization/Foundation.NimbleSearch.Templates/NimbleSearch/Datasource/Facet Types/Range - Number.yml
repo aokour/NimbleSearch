@@ -1,0 +1,25 @@
+﻿---
+ID: "99abd7ea-1912-409d-a403-97de1a670cf5"
+Parent: "d990da46-c8d0-44c3-9e6e-11a3a459e7a9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Foundation/NimbleSearch/Datasource/Facet Types/Range - Number"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/text_sum.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{F1F4C1C3-EC95-4007-BCC4-DCFB52A50FBF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T021437Z

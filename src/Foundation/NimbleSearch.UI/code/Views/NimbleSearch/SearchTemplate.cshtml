@@ -1,0 +1,85 @@
+﻿@using Sitecore.Mvc.Presentation;
+@using Sitecore.Data;
+@using System.Linq;
+@{
+
+    NimbleSearch.Foundation.Abstractions.Models.Definitions.TabItem tabItem = Sitecore.Context.Database.GetItem(RenderingContext.CurrentOrNull.Rendering.DataSource);
+
+    int? pageSize = tabItem?.DefaultPageSize;
+
+    string tabId = tabItem?.ID.ToString();
+    string sortBy = tabItem?.DefaultSortField;
+    string noResultsMessage = tabItem?.NoResultsHTML;
+    noResultsMessage = String.IsNullOrWhiteSpace(noResultsMessage) ? "No results were found" : noResultsMessage;
+}
+
+
+@if (tabItem == null)
+{
+    <p>Datasource is not selected for Nimble Search Template rendering.</p>
+}
+else
+{
+    <header class="page-header">
+
+        <div class="container">
+            @Html.Partial("~/Views/NimbleSearch/SearchBox.cshtml", tabItem)
+        </div>
+    </header>
+    <div>
+        @Html.Sitecore().Placeholder("searchbox")
+
+        <div id="nimble-results-number" class="search-total-results"></div>
+    </div>
+
+    <section class="section section-full ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <aside>
+                        <div class="sidebar sidebar-static">
+                            <div class="sidebar-collapse collapse" id="facets-sidebar">
+                                @Html.Partial("~/Views/NimbleSearch/SearchFacets.cshtml")
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-md-9">
+                    <div id="sort-full" class="text-left">
+                        @Html.Partial("~/Views/NimbleSearch/DropDownSort.cshtml")
+                    </div>
+                    <div id="pagination-full" class="text-center pagination">                      
+                        @*@Html.Partial("~/views/nimblesearch/numberedpagination.cshtml")*@
+                    </div>
+                    <div id="facets-full-buttons"></div>
+                    <img src="/images/preloader_1.gif" alt="Alternate Text" id="data-preoload-img" />
+                    @Html.Partial("~/Views/NimbleSearch/SearchResults.cshtml")
+
+
+                    <div id="pagination-full" class="text-center pagination">
+                        @Html.Partial("~/views/nimblesearch/numberedpagination.cshtml")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @Html.Partial("~/Views/NimbleSearch/Resources.cshtml")
+    <script>
+    var noResultsMessages = {};
+    var noResultsNextTab = [];
+
+    var urlUtility = new UrlUtility();
+
+    $nimbleJquery(document).ready(function () {
+        var searcherConfigurations = new SearcherConfigurations(noResultsNextTab);
+        @if (!string.IsNullOrWhiteSpace(sortBy))
+{
+            @:searcherConfigurations.defaultSort = { sortBy: "@sortBy"};
+        }
+        NimbleSearch.current().dataStore.noResultsMessages = '@Server.HtmlEncode(Html.Raw(noResultsMessage.Replace(System.Environment.NewLine, " ")).ToString())';
+        NimbleSearch.current().initialize(new Query(0, @pageSize.ToString(), "@tabId"), searcherConfigurations);
+    });
+    </script>
+}
+

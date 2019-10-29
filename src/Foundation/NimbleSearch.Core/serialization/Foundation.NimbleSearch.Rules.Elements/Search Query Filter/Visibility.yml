@@ -1,0 +1,18 @@
+﻿---
+ID: "414eeee4-4d78-4064-b902-064fd328bb50"
+Parent: "e1f9831a-678b-4271-8b62-f374673eae0c"
+Template: "aa91a868-02f2-41d3-8b78-1cad91b4dcae"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Search Query Filter/Visibility
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T190628Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "20f348c8-eb1d-4a30-97cc-8a4a63b3ef15"
+Parent: "d7a19c35-6320-462f-806f-0558feb6b214"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/NimbleSearch UI/Parameters/ParametersTemplate_Configurations/Configurations/Tab
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droptree
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T195507Z

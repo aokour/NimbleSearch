@@ -1,0 +1,14 @@
+﻿---
+ID: "8d36ab5e-2f1f-4fd0-9746-3cd630f9697c"
+Parent: "3000e7b5-51e1-4366-895b-035a8a2fa556"
+Template: "96c8e5dd-63c3-496b-a97c-a3e37e1dacba"
+Path: /sitecore/system/Settings/Rules/Search Query Filter/Tags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T191653Z

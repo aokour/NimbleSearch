@@ -1,0 +1,24 @@
+﻿---
+ID: "e5b70a74-bc8f-4fff-999e-33cd600fc307"
+Parent: "68bb9e56-e94c-46ee-932b-2c88f8e4798f"
+Template: "68bb9e56-e94c-46ee-932b-2c88f8e4798f"
+Path: /sitecore/templates/Foundation/NimbleSearch/Settings/Lookup/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171109T212511Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c434168b-d51f-4128-b173-7993d967d3b1"
+      Hint: Value
+      Value: $name
+    - ID: "f6e3bc1d-9ff6-439f-b192-2f8e709c5dec"
+      Hint: Name
+      Value: $name
