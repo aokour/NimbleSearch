@@ -1,5 +1,7 @@
+<p align="center">
+  <img  src="https://i.imgur.com/GePjAV6.png">
+</p>
 
-![N|Solid](https://i.imgur.com/GePjAV6.png)
 
 # Nimble Search for Sitecore
 
