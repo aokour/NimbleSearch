@@ -14,7 +14,9 @@ Nimble Search is a Sitecore open source module built on top of Sitecore content 
   - **Search UI markup** built using [handlebars.js], a popular templating engine that is powerful, simple to use and has a large community, where you can separate the generation of the html from the rest of your code.
 
 # Search Filter and Settings
-Nimble search let you set your search filters and settings directly in sitecore as items, We have a branch template that creates a set of initial search items that you need to start with, and then you can use the search tab item as a datasource for your nimble search template.
+
+ Nimble search let you set your search filters and settings directly in sitecore as items, We have a branch template that creates a set of initial search items that you need to start with, and then you can use the search tab item as a datasource for your nimble search template.
+
 ![N|Solid](https://i.imgur.com/uGWSRU9.png)
 ---------
 ----
