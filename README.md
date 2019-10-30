@@ -85,7 +85,7 @@ Common data for search results include
 
 It is not uncommon that these desired values are stored in different fields for different sitecore templates.
 To simplify gathering this data for search results, there is a config to map Sitecore fields to these data points.
-For example:
+For example, to add fields "Summary", "Description", and "Text" for BestSummary:
 ```xml
 <sitecore>
         <nimble>
