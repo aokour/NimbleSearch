@@ -115,8 +115,9 @@ Pipelines:
 
 URL: **/api/nimble/analytics**\
 Pipelines:
-- **nimble.searchAnalytics**: Tab Item settings, user input for search, and search results, process for analytics
-See the pipelines config for more info: `NimbleSearch.Foundation.Core.Pipelines.config`
+- **nimble.searchAnalytics**: given Tab Item settings, user input for search, and search results, process for analytics
+
+See the pipelines config for more info: `NimbleSearch.Foundation.Core.Pipelines.config`\
 These pipelines are called from the NimbleService class which can also be replaced via IoC dependency injection, though not expected to be necessary.
 
 # Search UI markup
