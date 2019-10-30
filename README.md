@@ -164,6 +164,10 @@ To Install Nimble Search,
     - **\Views\NimbleSearch\NumberedPagination.cshtml**  : This is the template for search pagination
     - **\Views\NimbleSearch\DropDownSort.cshtml**  : This is the template for search sorting
 
+### Demo Video
+[![Watch the video](https://miro.medium.com/max/512/0*db6bfYw00KqtrGjo.)](https://www.youtube.com/watch?v=p02CIdX386c)
+
+
 ### Development
 
 Want to contribute? Great, we need you!
