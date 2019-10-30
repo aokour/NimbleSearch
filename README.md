@@ -103,7 +103,8 @@ Use sitecore config patches to add your custom template field names to the lists
 
 # Extensible implementation
 Nimble Search implementation can be extended and modified to deliver a more custom search implementations. The Nimble framework has several pipelines for easy extension points.
-URL: **/api/nimble/search**
+
+URL: **/api/nimble/search**\
 Pipelines:
 - **nimble.initQuery**: Sets the index to query
 - **nimble.buildQuery**: given Tab Item settings and user input append clauses to the Sitecore Content Search Api Queryable
@@ -111,7 +112,8 @@ Pipelines:
 - **nimble.applyFacetOn**: given a facet item, apply the FacetOn call for each facet type
 - **nimble.applySelectedFacet**: given a facet item, apply the query predicates for each facet type
 - **nimble.mapResult**: given search results, map to JSON model
-URL: **/api/nimble/analytics**
+
+URL: **/api/nimble/analytics**\
 Pipelines:
 - **nimble.searchAnalytics**: Tab Item settings, user input for search, and search results, process for analytics
 See the pipelines config for more info: `NimbleSearch.Foundation.Core.Pipelines.config`
