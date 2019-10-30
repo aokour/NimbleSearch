@@ -82,6 +82,7 @@ Common data for search results include
 - Summary
 - Image
 - Date
+
 It is not uncommon that these desired values are stored in different fields for different sitecore templates.
 To simplify gathering this data for search results, there is a config to map Sitecore fields to these data points.
 For example:
