@@ -148,7 +148,7 @@ With the json object returned for each result from Nimble Search endpoint, you c
 
 ### Installation
 
-Currently Nimble Search is supporting Sitecore 9+ (tested on 9.2.0) with Solr indexing enabled, Future commits will add support for Azure search.
+Currently Nimble Search is supporting Sitecore 9+ (tested on 9.2.0) with Solr indexing enabled. Future commits will add support for Azure search (which may work already).
 
 To Install Nimble Search, 
   - download the package from releases page and install it in sitecore
